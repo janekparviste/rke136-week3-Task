@@ -13,7 +13,7 @@ html {
 }
 
 .movie-card {
-    margin-top: 3rem /*your code here*/;
+    margin-top: 5rem /*your code here*/;
     height: 800px;
     text-align: center /*your code here*/;
 }
@@ -66,7 +66,7 @@ html {
 
 .movie-poster-container img {
     margin-top: 2rem;
-    height: 60vh /*your code here*/;
+    height: 500px /*your code here*/;
     border-radius: 5% /*your code here*/;
     /*hover animation*/
     transition: all 1s;
@@ -148,7 +148,7 @@ html {
 }
 
 footer {
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     text-align: center /*your code here*/;
     color: #777;
 }
