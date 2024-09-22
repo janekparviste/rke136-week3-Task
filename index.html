@@ -9,6 +9,7 @@
     src="https://kit.fontawesome.com/7ed2cb1f9f.js"
     crossorigin="anonymous"
 ></script>    
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/poster.css">
     <title>Task</title>
 </head>
@@ -24,7 +25,7 @@
                 <span class="movie-duration">1h 55m</span>
             </p>
             <div class="movie-poster-container">
-                <img src="images/freeGuy.jpg" alt="Free Guy Poster">
+                <img src="images/freeGuy.jpg" alt="Free Guy Poster" class="movie-poster">
             </div>
 
             <div class="movie-info-container">
@@ -43,6 +44,14 @@
             </div>
         </div>
 
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <img alt="" class="movie-poster-modal" />
+                <h1>Free Guy! (2021)</h1>
+            </div>
+        </div>
+        
         <footer>
             <h3>Find me to discuss the movie</h3>
              
@@ -58,6 +67,7 @@
 
 
     </div>
-    
+
+    <script src="scripts/app.js"></script>
 </body>
 </html>
