@@ -148,7 +148,8 @@ html {
 }
 
 footer {
-    margin-top: 1.5rem;
+    /*margin-top: 1.5rem;*/
+    margin-top: 22rem;
     text-align: center /*your code here*/;
     color: #777;
 }
