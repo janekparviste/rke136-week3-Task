@@ -1,6 +1,5 @@
 const slides = document.getElementsByClassName('carousel__item');
 const slidesTotal = slides.length;
-console.log(slidesTotal);
 
 const nextButton = document.querySelector('#carousel__button--next');
 const prevButton = document.querySelector('#carousel__button--prev');
